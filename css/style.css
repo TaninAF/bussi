@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top header part start here */
+
+.top-header{
+    background-color: #f0f2f4;
+}
+.top-header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.top-header ul li{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2e2d2d;
+    font-size: 18px;
+    font-weight: 400;
+}
+.top-header ul li i{
+    color: #424242;
+    margin-right: 10px;
+    font-size: 26px;
+}
+.top-header ul:last-child{
+    font-size: 32px;
+    color: #1287bf;
+}
+
+/* top header part end here */
+
+/* header part start here */
+
+.navbar{
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 630;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+span{
+    color: red;
+}
+.btn-red{
+    color: #ffffff;
+    background-color: #de2b24;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.btn-red:hover{
+    color: white;
+    background-color: #c91710;
+}
+
+/* header part end here */
+
+/* banner start here */
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hg{
+    min-height: 80vh;  
+}
+.btn-ylw{
+    color: #ffffff;
+    background-color: #f8cd53;
+    padding: 15px 50px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 650;
+    text-transform: uppercase;
+}
+.btn-ylw:hover{
+    color: #ffffff;
+    background-color: #ebb72a;
+}
+.banner h1{
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.banner h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 390;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+/* banner end here */
+
+/* feature start here */
+
+.heading h2{
+    color: #424242;
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+.heading h4{
+    color: #424242;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.heading{
+    position: relative;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    left: 44%;
+    bottom: -15%;
+    width: 10%;
+    height: 7%;
+    background-color: #424242;
+}
+.fimg{
+    padding: 30px 0;
+}
+.feature h3{
+    color: #424242;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 650;
+    text-transform: capitalize;
+}
+.feature p{
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 8px;
+}
+/* feature end here */
+
+/* approach start here */
+
+.approach{
+    background-color: #f3f3f3;
+    padding-bottom: 120px;
+}
+.img{
+    position: relative;
+}
+.step{
+    position: absolute;
+    background-color: #de2b24;
+    padding: 15px 40px;
+    top: 27%;
+    right: -16%;
+    box-shadow: -1px 0px 0 2px white;
+}
+.step h3, .step-two h3{
+    color: #ffffff;
+    font-size: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 880;
+    margin: 0;
+    text-transform: capitalize;
+}
+.step h6, .step-two h6{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-transform: capitalize;
+}
+.bg{
+    background-color: #ffffff;
+}
+.content{
+    padding-left: 100px;
+}
+.content h5{
+    color: #424242;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 650;
+    text-transform: capitalize;
+}
+.content p{
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.two{
+    text-align: right;
+    margin-right: 52px;
+}
+.step-two{
+    position: absolute;
+    background-color: #de2b24;
+    padding: 15px 40px;
+    top: 27%;
+    left: -16%;
+    box-shadow: -1px 0px 0 2px white;
+}
+.work{
+    background-color: #de2b24;
+}
+.work h2{
+    color: #ffffff;
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+.work h4{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.heading2{
+    position: relative;
+}
+.heading2::before{
+    content: '';
+    position: absolute;
+    left: 44%;
+    bottom: -15%;
+    width: 0;
+    height: 7%;
+    background-color: #ffffff;
+    transition: .5s ease-in-out;
+}
+.work:hover .heading2::before{
+    width: 10%;
+}
+
+
+/* approach end here */
